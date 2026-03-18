@@ -27,11 +27,11 @@ type Command = {
 }[];
 
 export const commands: Command = [
-  { cmd: "about", desc: "about Sat Naing", tab: 8 },
+  { cmd: "about", desc: "about meee", tab: 8 },
   { cmd: "clear", desc: "clear the terminal", tab: 8 },
   { cmd: "echo", desc: "print out anything", tab: 9 },
   { cmd: "education", desc: "my education background", tab: 4 },
-  { cmd: "email", desc: "send an email to me", tab: 8 },
+  { cmd: "email", desc: "hit me up!", tab: 8 },
   { cmd: "gui", desc: "go to my portfolio in GUI", tab: 10 },
   { cmd: "help", desc: "check available commands", tab: 9 },
   { cmd: "history", desc: "view command history", tab: 6 },

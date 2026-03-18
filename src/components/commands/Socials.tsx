@@ -57,20 +57,14 @@ const socials = [
   },
   {
     id: 2,
-    title: "Dev.to",
-    url: "https://dev.to/satnaing",
-    tab: 3,
-  },
-  {
-    id: 3,
     title: "Facebook",
-    url: "https://www.facebook.com/satnaing.dev",
+    url: "https://www.facebook.com/bao.lam.139039",
     tab: 1,
   },
   {
-    id: 4,
+    id: 3,
     title: "Instagram",
-    url: "",
+    url: "https://www.instagram.com/_.blam/",
     tab: 0,
   },
 ];

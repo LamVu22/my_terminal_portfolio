@@ -38,11 +38,11 @@ const Welcome: React.FC = () => {
           `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
+        <div>Welcome to my terminal portfolio. (Version 1.2.2)</div>
         <Seperator>----</Seperator>
         <div>
           This project's source code can be found in this project's{" "}
-          <Link href="https://github.com/satnaing/terminal-portfolio">
+          <Link href="https://github.com/LamVu22/my_terminal_portfolio">
             GitHub repo
           </Link>
           .
@@ -55,23 +55,28 @@ const Welcome: React.FC = () => {
       <div className="illu-section">
         <PreImg>
           {`
-                       ,##,,eew,
-                     ,##############C
-                  a###############@##
-                 7####^\`^"7W7^"@####
-                 @#@b\`         ^@#@^
-                  ##^,,,,   ,,,,^#^
-                 ,,@######"#######=
-                  .''555"\` '5555b|
-                  T"@  ,,,^,mg,@,*
-                     %p||\`~~'.#\`
-                      ^Wp  ,#T
-                     :b''@@b^}
-                  ,^     \` 'b 3-
-              .<\` 'p   ^v   #   b   *.
-            {      }   #"GpGb   [
-            C      3 * @#######Nl      \`
-           '            ^@##b     ($    !
+aaaaaaaaaooaooaCqO)i>1dooooooooaaaaaaaaa
+aaaaaaaaaoaabht,^^\`^:;:IIqooooooaaaaaaaa
+aaaaaaaaaaoaj"\`^\`\`\`\`\`",::;lboooaooaaaaaa
+aaaaaaaaaoam,^^\`^^I,,^\`^,\`^:Uaoaaoaaaaaa
+aaaaaaaaaaa,"^^;</YYcn?:",;:!haaaaaaaaaa
+aaaahahhah(;,I1rYLQO00Lz(;:,"maaaaaaaaaa
+aahhhhhhhh_I;/uzU0ZmZ0LUzi+I,vhhhhaaaaaa
+aahhhhhhhhkI\\unJ0mpqppwOCYX_Idhhhhhhhaaa
+hahhhhhhkhk;vnYCLCQmmQCLLLUYIkhhkhhhhhaa
+hhhhhkhkkkb+YXrXcUJO00zucuQL{bkkhhhhhhha
+hhhhhkkkkbbtY0wqwQUO00mqqqmQzbbkkhhhhhhh
+hhhhkkkkbbdUXOpdqUYwOJZpdpmLddbbkkkhhhhh
+hhkhkkkbbddpcQmqwLzQQJZpdwOCppddbkkkhhhh
+hkkkkkbbdppqwU0OLLCzXZmwqm0mwqpddbkkkhhh
+kkkkkbbdppqwmZYQQUcCJnQmZQZZmmwppdbkkkkh
+kkkkbbddpqwmO,xjULOwwZOQvY'^IZmwpddbkkkk
+kkbbbddpqwmOl"cUYuYJXXXYCX]'"~Zmqpddbbkk
+bbbbddpq<^^"",,JQ0Q000QLLz(",",lwqpdddbb
+bbddC:",^",""",1Y0O00Q0LUc1","""",,:dddb
+dd,"""^"^",,"^^"^\\nXCLLUUj^,""",""""",;d
+,,"""^^"^",,""^^^\`"fYUCn""",""""""""""",
+",""""",^"^"""""""^^^t"",""""""""""""",,
          `}
         </PreImg>
       </div>

@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
 
   /* ===== check arg is valid ===== */
   const checkArg = () =>
-    isArgInvalid(arg, "go", ["1", "2", "3", "4"]) ? (
+    isArgInvalid(arg, "go", ["1", "2", "3", "4", "5", "6"]) ? (
       <Usage cmd="projects" />
     ) : null;
 
@@ -56,33 +56,40 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "CryptoSense",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
+    title: "Triad",
+    desc: "Uncompromising trimodal remote computer accessibility.",
+    tech: "Python + Pillow, OpenCV, lightweight GTK/Cairo, pynput",
+    url: "https://devpost.com/software/the-four",
   },
   {
     id: 2,
     title: "FalconGraph",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
-    url: "https://haru-fashion.vercel.app/",
+    desc: "AI-powered search tool for finding BGSU information across multiple data sources.",
+    url: "https://github.com/LamVu22/BGSUHackathon",
   },
   {
     id: 3,
     title: "EcoCT",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
+    desc: "Conversational environmental platform that manages your environmental safety with AI and graphs.",
+    url: "https://devpost.com/software/ecoct/",
   },
   {
     id: 4,
-    title: "Triad",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
+    title: "CryptoSense",
+    desc: "A multi-agent LLM system that parses natural-language crypto queries and routes tasks across specialized agents.",
+    url: "https://github.com/LamVu22/CryptoSense",
   },
   {
     id: 5,
     title: "DreamScape",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
+    desc: "A mobile app that helps you learn passively while you rest via gentle audio cues.",
+    url: "https://devpost.com/software/dreamscape-z7ds83",
+  },
+  {
+    id: 6,
+    title: "TinyTerms.ai",
+    desc: "A website that explains complex tech terms in simple language like you're five.",
+    url: "https://tinytermsai.netlify.app"
   }
 ];
 
