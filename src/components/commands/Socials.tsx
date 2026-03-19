@@ -23,7 +23,8 @@ const Socials: React.FC = () => {
         id === parseInt(arg[1]) && window.open(url, "_blank");
       });
     }
-  }, [arg, rerender, currentCommand]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [arg, rerender, currentCommand.join(" ")]);
 
   /* ===== check arg is valid ===== */
   const checkArg = () =>
