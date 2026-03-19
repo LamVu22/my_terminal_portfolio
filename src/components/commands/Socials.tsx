@@ -57,12 +57,18 @@ const socials = [
   },
   {
     id: 2,
+    title: "Portfolio",
+    url: "https://lamvuportfolio.netlify.app",
+    tab: 1,
+  },
+  {
+    id: 3,
     title: "Facebook",
     url: "https://www.facebook.com/bao.lam.139039",
     tab: 1,
   },
   {
-    id: 3,
+    id: 4,
     title: "Instagram",
     url: "https://www.instagram.com/_.blam/",
     tab: 0,
